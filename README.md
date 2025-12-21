@@ -2,7 +2,7 @@
 My system programming journey — low-level C programs exploring Linux system calls, file systems, and OS internals.
 
 This repository marks the beginning of my **system programming journey**.  
-Here, I explore low-level programming concepts using **C on Linux**, focusing on how operating systems work internally.
+Here, I explore **UNIX internals** and low-level programming concepts using **C on Linux**, focusing on how operating systems work internally.
 
 The goal of this repository is **learning by building** — writing small, focused programs that interact directly with the OS through system calls.
 
