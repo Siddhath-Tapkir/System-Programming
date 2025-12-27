@@ -39,6 +39,7 @@ int main(int argc, char *argv[])
 
     while(Files = readdir(dp))
     {
+        strcpy(DirName,argv[1]);
         if(Files->d_type == DT_REG)
         {
             sprintf(path,"./%s/%s",DirName,Files->d_name); //./Data/sync_1.c
@@ -55,7 +56,6 @@ int main(int argc, char *argv[])
                         {
                             Buff[0] = 'i';
                             Buff[7] = '\0';
-
                             if(strcmp(Buff, "include") == 0)
                             {
                                 iCount++;
